@@ -1,0 +1,33 @@
+img {
+  max-width: 100%;
+}
+
+header {
+  background-color: lightblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: start;
+  align-content: center;
+}
+
+main {
+  background-color: coral;
+}
+
+section {
+  margin: auto 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  justify-content: center;
+  column-gap: 50px;
+  align-items: center;
+}
+
+footer {
+  background-color: darkturquoise;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
